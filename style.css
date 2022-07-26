@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+:root {
+    --primary-color: #10375C;
+    --secondary-color: #ff5622;
+    --primary-color-120: #0D2C4A;
+    --secondary-color-120: #ff5622;
+    overflow-x: hidden;
+}
+
+.content-position-center {
+    margin: 2% 10%;
+    width: 80%;
+}
+
+.header {
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--primary-color);
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar > button {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.header-auth-btn {
+    width: 80px !important;    
+    border: none;
+    border-radius: 0;
+    
+}
+
+.login-btn {
+    color: var(--secondary-color) !important;
+    background-color: white !important;
+
+    
+}
+
+.signup-btn {
+    background-color: var(--secondary-color) !important;
+    box-shadow: 4px 4px 13px 3px rgba(255,87,34,0.29);
+}
+
+.hero-title {
+    color: var(--primary-color);
+    font-size: 3em;
+}
+
+.hero-title > span {
+    color: var(--secondary-color);
+}
+
+.hero-info {
+    display: flex;
+    align-items: center;
+}
+
+.hero-bg-image {
+    width: 116%;
+    height: 45em;
+    background-image: url("./assets/images/image\ 10.png");
+    background-repeat: no-repeat;
+    background-size: 1200px 800px;
+    /* background-attachment:fixed;` */
+    background-position: right;
+
+    display: flex;
+    /* justify-content: center; */
+    align-content: flex-start;
+}
+
+.hero-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around   ;
+    align-items: center;
+
+    justify-self: left;
+    margin-top: 3.5%;
+    background-color: var(--primary-color);
+    width: 38%;
+    height: 76%;
+}
+
+.hero-form > h2 {
+    color: #ffffff;
+}
+
+.hero-dropdown-btn > p {
+    color: #ffffff56;
+}
+
+.hero-dropdown-btn {
+    background-color: var(--primary-color-120) !important;
+    width: 100%;
+}
+
+.hero-dropdown {
+    width: 70%;
+}
+
